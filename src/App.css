@@ -40,3 +40,19 @@
 .read-the-docs {
   color: #888;
 }
+
+#mouse-pointer {
+  width: 20px;
+  height: 20px;
+  background-color: #f30a0a;
+  /* 커서 가운데정렬 */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -10px 0 0 -10px;
+
+  border-radius: 50%;
+  z-index: 999;
+  pointer-events: none;
+  mix-blend-mode: difference;
+}
